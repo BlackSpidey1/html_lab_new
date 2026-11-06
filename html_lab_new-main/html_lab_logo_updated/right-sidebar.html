@@ -1,0 +1,140 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="Learn CSS basics, layout systems, selectors, colors, and responsive design with beginner-friendly examples." />
+		<title>CSS Course | HTML & CSS Lab</title>
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/education.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="index.html"><img src="assets/logo.svg" alt="Code Logo" style="height:34px;vertical-align:middle"></a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="left-sidebar.html">HTML</a></li>
+						<li><a href="right-sidebar.html">CSS</a></li>
+						<li><a href="no-sidebar.html">Projects</a></li>
+						<li><a href="elements.html">Resources</a></li>
+						<li><a href="index.html#cta" class="button primary">Start Learning</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<!-- Main -->
+				<div id="main" class="wrapper style1">
+					<div class="container">
+						<header class="major">
+							<h2>CSS Fundamentals</h2>
+							<p>CSS makes webpages look good. It controls colors, spacing, layout, fonts, backgrounds, and responsiveness.</p>
+						</header>
+
+						<div class="lesson-layout">
+							<aside class="lesson-sidebar">
+								<h3>CSS topics</h3>
+								<ul>
+									<li><a href="right-sidebar.html" class="active">Introduction</a></li>
+									<li><a href="#">Syntax</a></li>
+									<li><a href="#">Selectors</a></li>
+									<li><a href="#">Colors</a></li>
+									<li><a href="#">Box model</a></li>
+									<li><a href="#">Flexbox</a></li>
+									<li><a href="#">Grid</a></li>
+									<li><a href="#">Responsive design</a></li>
+								</ul>
+							</aside>
+
+							<main class="lesson-content">
+								<h1>What is CSS?</h1>
+								<p>CSS stands for Cascading Style Sheets. HTML gives the content structure, and CSS gives that content style. It decides how the page should look.</p>
+
+								<div class="explain-box">
+									<h3>Simple explanation</h3>
+									<p>If HTML is the skeleton of a webpage, CSS is the paint, layout, spacing, and visual design.</p>
+								</div>
+
+								<h2>CSS syntax</h2>
+								<pre><code>h1 {
+  color: #7c9cff;
+  font-size: 2.5rem;
+  text-align: center;
+}</code></pre>
+
+								<ul>
+									<li><code>h1</code> is the selector.</li>
+									<li><code>color</code> is the property.</li>
+									<li><code>#7c9cff</code> is the value.</li>
+								</ul>
+
+								<div class="tip-box">
+									<strong>Tip:</strong> CSS rules can be reused across many elements, which helps keep your page consistent.
+								</div>
+
+								<h2>Why do we need CSS?</h2>
+								<p>Without CSS, a webpage would be plain and difficult to read. CSS helps create a better visual hierarchy, comfortable spacing, and a polished design.</p>
+
+								<h2>Common beginner mistake</h2>
+								<div class="warning-box">
+									<p>New developers often forget the semicolon at the end of a CSS property. Without it, the browser may ignore the rule.</p>
+								</div>
+
+								<div class="exercise-box">
+									<h3>Mini challenge</h3>
+									<p>Style a heading so it is blue, centered, and larger than normal.</p>
+								</div>
+
+								<div class="quiz-card">
+									<h3>Quick quiz</h3>
+									<p>Which part of CSS chooses which element to style?</p>
+									<ul>
+										<li>A. Property</li>
+										<li>B. Value</li>
+										<li>C. Selector</li>
+										<li>D. Comment</li>
+									</ul>
+									<button type="button">Check answer</button>
+									<div class="quiz-result" aria-live="polite"></div>
+								</div>
+
+								<div class="lesson-nav">
+									<a href="left-sidebar.html">← Previous: HTML</a>
+									<a href="no-sidebar.html">Next: Projects →</a>
+								</div>
+							</main>
+						</div>
+					</div>
+				</div>
+
+			<footer id="footer">
+				<ul class="icons">
+					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+				</ul>
+				<ul class="copyright">
+					<li>&copy; HTML & CSS Lab</li>
+					<li>Learn by building.</li>
+				</ul>
+			</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
